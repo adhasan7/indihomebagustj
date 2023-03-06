@@ -8,9 +8,6 @@
     /*agar perpindahan ke smoth*/
 	 scroll-behavior: smooth;
    width: 100%;
-   
-
-    
 }
 .header {
     display: flex;
@@ -29,9 +26,8 @@
 .flex {
     display: flex;
     justify-content:space-around;
-    border: 1px solid violet;
-   
-
+    width: 700px;
+    margin-right: 100px;
 
 }
 .flex ul {
@@ -40,8 +36,6 @@
 }
 .flex ul li {
   font-size: bold;
- 
-
 }
 .flex ul li a {
  padding: 15px 0;
@@ -60,13 +54,32 @@
 ul li a {
     text-decoration: none;
     color: #FAC9C6;
-}
-li {
-    /* display: flex;
+    display: flex;
     font-size: 15px;
     font-weight: bold;
-    gap: -20px; */
+   
 }
+.flex li:nth-child(1){
+  display: flex;
+  width: 59px;
+}
+.flex li:nth-child(2){
+  display: flex;
+  width: 59px;
+}
+.flex li:nth-child(3){
+  display: flex;
+  width: 117px;
+}
+.flex li:nth-child(4){
+  display: flex;
+  width: 59px;
+}
+.flex li:nth-child(5){
+  display: flex;
+  width: 59px;
+}
+
 .banner {
     display: flex;
     position: relative;
@@ -74,14 +87,12 @@ li {
     height: 109vh;
     text-align: center;
     display: flex;
-  justify-content: center;
+    justify-content: center;
     
 }
 .video-banner {
     height: 140vh;
-    width : 100%;
-    
-
+    width : 100%;  
 } 
  .banner::after {
     content:'';
@@ -92,7 +103,6 @@ li {
     left: 0;
     right: 0; 
     background-color: rgba(212, 8, 8, 0.6);
-
 }  
 
 video.fullscreen {
@@ -104,7 +114,6 @@ video.fullscreen {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  
   }
   
 
@@ -117,7 +126,6 @@ video.fullscreen {
     align-items: center;
     text-align: 15px
     ;
-    
     
   }
   .content-ajakan img {
@@ -179,8 +187,8 @@ video.fullscreen {
  
   .ajakan-kiri {
     position: absolute;
-    top: 349px;
-    right: 450px;
+    top: 350px;
+    right: 550px;
    
     
   }
@@ -188,8 +196,8 @@ video.fullscreen {
     width: 100px !important;
     height: 30px !important;
     position: absolute;
-    bottom: -230px;
-    right: 995px !important;
+    bottom: -227px;
+    right: 840px !important;
    
   }
 
@@ -297,8 +305,8 @@ video.fullscreen {
  .card2 h5:nth-child(2){
     color: red;  
 }
-.parent-text-card1b {
-  margin-top: 30px;
+  .parent-text-card1b {
+   margin-top: 30px;
 }
  
   .card2 {
@@ -345,7 +353,6 @@ video.fullscreen {
   }
   
   .img-card3{
-    
     width: 60px;
     height: 60px;
     position: absolute;
@@ -353,10 +360,8 @@ video.fullscreen {
   }
   .wrapper-two {
     margin-top: 27em;
-    margin-left: -5em;
+    margin-left: -3em;
     line-height: 45px;
-   
-
   }
  .wrapper-two-content h2:nth-child(1){
   font-size: 30px;
@@ -466,7 +471,6 @@ video.fullscreen {
   background-color: red;
 
  } 
-
 
 .txt-bawah{
   margin-top: 240px;
@@ -675,14 +679,13 @@ video.fullscreen {
  .herro-content {
   margin-bottom: 20px;
   z-index: 1;
-  border: 1px solid red;
   position: absolute;
- margin-bottom: 30px;
- bottom: 30px;
+  margin-bottom: 30px;
+  bottom: 30px;
  }
 
  .herro ::after {
-  content:'';
+    content:'';
     display: block;
     position: absolute;
     top: 0;
@@ -692,5 +695,18 @@ video.fullscreen {
     background-color: rgba(212, 8, 8, 0.6);
     width: 100%;
  }
+.iklan-herro {
+  position: relative;
+}
+.iklan-herro-isi{
+  position: absolute;
+  bottom: 24px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1.21;
+  margin: 0 0 1rem;
+  right: 20rem;
+  bottom: 29rem;
 
-
+}
