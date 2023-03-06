@@ -8,6 +8,7 @@
     /*agar perpindahan ke smoth*/
 	 scroll-behavior: smooth;
    width: 100%;
+   
 
     
 }
@@ -19,26 +20,31 @@
     height:  70px;
     padding: 60px auto;
     gap: 150px;
+    overflow : hidden;
 }
 .container {
   width: 100%;
+  overflow : hidden;
 }
 .flex {
     display: flex;
-    justify-content:center;
-    gap: 2;
-    margin-right: 9em;
+    justify-content:space-around;
     border: 1px solid violet;
-    width: 500px;
+   
+
 
 }
 .flex ul {
-  width: 800px;
+  /* width: 100%;
+  width: fit-content; */
 }
-.flex li {
+.flex ul li {
   font-size: bold;
-  margin-left: 6px;
-  gap: 4px;
+ 
+
+}
+.flex ul li a {
+ padding: 15px 0;
 }
 .flex li a:hover {
   color: white;
@@ -56,10 +62,10 @@ ul li a {
     color: #FAC9C6;
 }
 li {
-    display: flex;
+    /* display: flex;
     font-size: 15px;
     font-weight: bold;
-    gap: -20px;
+    gap: -20px; */
 }
 .banner {
     display: flex;
@@ -239,6 +245,7 @@ video.fullscreen {
     height: auto;
     gap: 13px;
     margin-left: 17px;
+    
   }
  
   .wrapper {
@@ -652,6 +659,7 @@ video.fullscreen {
   margin-top: 100px;
   width: 100%;
   position: relative;
+  overflow: hidden;
  }
  .hero img {
 
